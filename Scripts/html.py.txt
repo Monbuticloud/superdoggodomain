@@ -1,0 +1,6 @@
+import os
+
+for a in range(1000):
+    path = "/public_html/Other we sites/"+str(a)
+    try:
+        file = open(path, "x")
